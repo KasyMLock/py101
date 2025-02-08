@@ -57,13 +57,13 @@ while control is True:
     # math block
     match operator:
         case '+' | 'plus' | 'addition' | 'Addition' | 'add' | 'Add':
-            output = int(first_number) + int(second_number)
+            output = float(first_number) + float(second_number)
         case '-' | 'minus' | 'subtract' | 'Subtract':
-            output = int(first_number) - int(second_number)
+            output = float(first_number) - float(second_number)
         case '*' | 'multiply' | 'x' | 'X' | 'Multiply' | 'time' | 'Times' | 'times':
-            output = int(first_number) * int(second_number)
+            output = float(first_number) * float(second_number)
         case '/' | 'divide' | 'Divide':
-            output = int(first_number) / int(second_number)
+            output = float(first_number) / float(second_number)
         case _:
             output = "operator doesn't exist or is beyond the bounderies of this simple calculator."
 
