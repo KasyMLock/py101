@@ -1,10 +1,3 @@
-import random
+year = 2000
 
-selection_list = ['paper', 'rock', 'scissors']
-
-print(random.choice(selection_list))
-print(random.choice(selection_list))
-print(random.choice(selection_list))
-print(random.choice(selection_list))
-print(random.choice(selection_list))
-print(random.choice(selection_list))
+print()
